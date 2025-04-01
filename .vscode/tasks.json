@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "powershell -Command \"cls; cmake --build build --target clean\"",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake --build build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "${workspaceFolder}\\build\\Playground.exe",
+            "problemMatcher": []
+        },
+        // {
+        //     "label": "start",
+        //     "dependsOn": [
+        //         "clean",
+        //         "build",
+        //         "run"
+        //     ],
+        //     "problemMatcher": []
+        // }
+        {
+            "label": "start",
+            "type": "shell",
+            "command": "powershell -Command \"cls; cmake --build build --target clean; cmake --build build; ${workspaceFolder}\\build\\Playground.exe\"",
+            "problemMatcher": []
+        },
+    ]
+}
