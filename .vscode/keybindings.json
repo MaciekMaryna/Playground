@@ -1,0 +1,17 @@
+[
+    {
+        "key": "f5",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.tasks.runTask",
+        "args": "clean",
+    },
+    {
+        "key": "f9",
+        "command": "workbench.action.tasks.runTask",
+        "args": "start"
+    }
+]
