@@ -7,7 +7,7 @@
     {
         "key": "f4",
         "command": "workbench.action.tasks.runTask",
-        "args": "clean",
+        "args": "clean"
     },
     {
         "key": "f9",
