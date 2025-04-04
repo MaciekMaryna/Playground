@@ -2,6 +2,11 @@
     "files.associations": {
         "compare": "cpp",
         "cstdint": "cpp",
-        "functional": "c"
+        "functional": "c",
+        "stdarg.h": "c",
+        "stdbool.h": "c",
+        "stdint.h": "c",
+        "cstdarg": "c",
+        "requires_hosted.h": "c"
     }
 }

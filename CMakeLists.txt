@@ -9,4 +9,5 @@ include_directories(include)
 add_executable(Playground   src/main.c
                             src/multable.c
                             src/ring.c
+                            src/deck.c
 )
